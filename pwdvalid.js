@@ -37,3 +37,21 @@ if (yesNumbers && yesLetters) {
 } else if (yesLetters) {
   console.log("NOT OK. Only letters")
 }
+
+if (password === "123456" || password === "password") {
+  console.log ("NOT OK.  I know your password")
+}
+
+var yesSymbols = false;
+var allSymbols = "!@#$%^&*()_+=-[]{}";
+for (var i=0; i< password.length; i++) {
+  if (allSymbols.includes(password[i])) {
+    yesSymbols = true;
+  }
+}
+
+if (yesSymbols) {
+  console.log("OK.  Good symbols")
+} else {
+  console.log("NOT OK.  Forgot to add symbols")
+}
