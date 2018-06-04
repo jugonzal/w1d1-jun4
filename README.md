@@ -1,5 +1,5 @@
 # w1d1-jun4
-First project... Password validator
+First project... _Password validator_
 
 Features included in this version:
 
@@ -10,3 +10,15 @@ Features included in this version:
 - try to add symbols
 - upper and lower case
 - minimum length
+
+potential javascript functions that may be useful
+
+- process.argv
+- `string.includes()`
+
+```javascript
+var str = 'To be, or not to be, that is the question.';
+
+console.log(str.includes('To be'));       // true
+```
+
